@@ -49,14 +49,55 @@
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="enter a phone number" ControlToValidate="phoneTxt" EnableClientScript="False"></asp:RequiredFieldValidator>
             </td>
         </tr>
+        <tr>
+            <td class="auto-style7">Date of Birth</td>
+            <td class="auto-style6">
+                <asp:TextBox ID="DOBtxt" placeholder="dd-mm-yyyy" runat="server"></asp:TextBox>
+            </td>
+            <td>
+                Age must be greater than 18 years</td>
+        </tr>
          <tr>
             <td class="auto-style7">State</td>
             <td class="auto-style6">
                 <asp:DropDownList ID="stateList" runat="server">
-                    <asp:ListItem>select state</asp:ListItem>
-                    <asp:ListItem>Delhi</asp:ListItem>
+                    <asp:ListItem>Select state</asp:ListItem>
+                    <asp:ListItem>Andaman and Nicobar Islands</asp:ListItem>
+                    <asp:ListItem>Andhra Pradesh</asp:ListItem>
+                    <asp:ListItem>Arunachal Pradesh</asp:ListItem>
+                    <asp:ListItem>Assam</asp:ListItem>
+                    <asp:ListItem>Bihar</asp:ListItem>
+                    <asp:ListItem>Chandigarh</asp:ListItem>
+                    <asp:ListItem>Chhattisgarh</asp:ListItem>
+                    <asp:ListItem>Dadra and Nagar Haveli</asp:ListItem>
+                    <asp:ListItem>Daman and Diu</asp:ListItem>
+                    <asp:ListItem>Delhi NCR</asp:ListItem>
+                    <asp:ListItem>Goa</asp:ListItem>
+                    <asp:ListItem>Gujarat</asp:ListItem>
+                    <asp:ListItem>Haryana</asp:ListItem>
+                    <asp:ListItem>Himachal Pradesh</asp:ListItem>
+                    <asp:ListItem>Jammu and Kashmir</asp:ListItem>
+                    <asp:ListItem>Jharkhand</asp:ListItem>
+                    <asp:ListItem>Karnataka</asp:ListItem>
                     <asp:ListItem>Kerala</asp:ListItem>
+                    <asp:ListItem>Lakshadweep</asp:ListItem>
+                    <asp:ListItem>Madhya Pradesh</asp:ListItem>
+                    <asp:ListItem>Maharashtra</asp:ListItem>
+                    <asp:ListItem>Manipur</asp:ListItem>
+                    <asp:ListItem>Meghalaya</asp:ListItem>
+                    <asp:ListItem>Mizoram</asp:ListItem>
+                    <asp:ListItem>Nagaland</asp:ListItem>
+                    <asp:ListItem>Odisha</asp:ListItem>
+                    <asp:ListItem>Puducherry</asp:ListItem>
                     <asp:ListItem>Punjab</asp:ListItem>
+                    <asp:ListItem>Rajasthan</asp:ListItem>
+                    <asp:ListItem>Sikkim</asp:ListItem>
+                    <asp:ListItem>Tamil Nadu</asp:ListItem>
+                    <asp:ListItem>Telangana</asp:ListItem>
+                    <asp:ListItem>Tripura</asp:ListItem>
+                    <asp:ListItem>Uttar Pradesh</asp:ListItem>
+                    <asp:ListItem>Uttarakhand</asp:ListItem>
+                    <asp:ListItem>West Bengal</asp:ListItem>
                 </asp:DropDownList>
              </td>
             <td>

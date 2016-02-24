@@ -22,7 +22,7 @@ namespace BeanFeast
                 int temp = Convert.ToInt32(cmd.ExecuteScalar().ToString());
                 if (temp == 1)
                 {
-                    Response.Write("user already exist");
+                    Response.Write("User already exist");
                 }
                 con.Close();
             }
@@ -31,9 +31,9 @@ namespace BeanFeast
         protected void createBtn_Click(object sender, EventArgs e)
         {
             string gen = "";
-            if (stateList.SelectedValue == "select state")
+            if (stateList.SelectedValue == "Select state")
             {
-                stateLbl.Text = "please select a state";
+                stateLbl.Text = "Please select a state";
             }
 
             if (maleRbtn.Checked == true)
@@ -68,7 +68,7 @@ namespace BeanFeast
                 cmd.Parameters.AddWithValue("@Password", passwordTxt.Text);
                 cmd.ExecuteNonQuery();
 
-                Response.Write("successfully created");
+                Response.Write("Successfully created");
                 Response.Redirect("Home.aspx");
 
                 con.Close();
