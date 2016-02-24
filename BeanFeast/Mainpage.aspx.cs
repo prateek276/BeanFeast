@@ -11,7 +11,18 @@ namespace BeanFeast
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            if (Session["New"] != null)
+            {
+                welcomeLbl.Text = Session["New"].ToString();
+            }
+            else
+                Response.Redirect("Home.aspx");
+        }
 
+        protected void logoutBtn_Click(object sender, EventArgs e)
+        {
+            Session["New"] = null;
+            Response.Redirect("Home.aspx");
         }
     }
 }
