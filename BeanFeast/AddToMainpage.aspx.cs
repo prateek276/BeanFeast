@@ -24,7 +24,7 @@ namespace BeanFeast
     {
         string strname = clubimageUpload.FileName;  
         clubimageUpload.PostedFile.SaveAs(Server.MapPath(".")+"//ClubImages//" + strname);
-        string path = "~//ClubData//" + strname.ToString();
+        string path = "~//ClubImages//" + strname.ToString();
         con.Open();
          SqlCommand cmd = new SqlCommand("insert into ClubData values('" + path + "','"+clubnameTxt.Text+"','" + placeTxt.Text + "','"+rateTxt.Text+"')", con);
          
