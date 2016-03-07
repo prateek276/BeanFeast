@@ -45,7 +45,7 @@
                     <asp:Label ID="addtomainpageLbl" runat="server"></asp:Label>
                  </td>
                 <td>
-                    <asp:Button ID="saveBtn" runat="server" OnClick="saveBtn_Click" Text="SAVE" />
+                    <asp:Button ID="saveBtn" runat="server" OnClick="saveBtn_Click" Text="Save" />
                  </td>
              
             </tr>
