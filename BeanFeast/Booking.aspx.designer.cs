@@ -10,7 +10,7 @@
 namespace BeanFeast {
     
     
-    public partial class Mainpage {
+    public partial class Booking {
         
         /// <summary>
         /// form1 control.
@@ -22,57 +22,39 @@ namespace BeanFeast {
         protected global::System.Web.UI.HtmlControls.HtmlForm form1;
         
         /// <summary>
-        /// welcomeLbl control.
+        /// clubnameLbl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Label welcomeLbl;
+        protected global::System.Web.UI.WebControls.Label clubnameLbl;
         
         /// <summary>
-        /// logoutBtn control.
+        /// placeLbl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button logoutBtn;
+        protected global::System.Web.UI.WebControls.Label placeLbl;
         
         /// <summary>
-        /// searchTxt control.
+        /// rateLbl control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox searchTxt;
+        protected global::System.Web.UI.WebControls.Label rateLbl;
         
         /// <summary>
-        /// searchBtn control.
+        /// booknowBtn control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button searchBtn;
-        
-        /// <summary>
-        /// GridView1 control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView GridView1;
-        
-        /// <summary>
-        /// SqlDataSourceClubData control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.SqlDataSource SqlDataSourceClubData;
+        protected global::System.Web.UI.WebControls.Button booknowBtn;
     }
 }

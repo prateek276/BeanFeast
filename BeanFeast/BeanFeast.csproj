@@ -58,12 +58,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
+    <Content Include="AddToMainpage.aspx" />
     <Content Include="App_Data\BeanFeastDB.mdf" />
     <Content Include="App_Data\BeanFeastDB_log.ldf">
       <DependentUpon>BeanFeastDB.mdf</DependentUpon>
     </Content>
+    <Content Include="Booking.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Home.aspx" />
+    <Content Include="Images\beanfeastName.png" />
+    <Content Include="Images\BeanFeastPic.png" />
     <Content Include="Mainpage.aspx" />
     <Content Include="Manager.aspx" />
     <Content Include="Signup.aspx" />
@@ -88,6 +92,20 @@
     </Compile>
     <Compile Include="About.aspx.designer.cs">
       <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AddToMainpage.aspx.cs">
+      <DependentUpon>AddToMainpage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AddToMainpage.aspx.designer.cs">
+      <DependentUpon>AddToMainpage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Booking.aspx.cs">
+      <DependentUpon>Booking.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Booking.aspx.designer.cs">
+      <DependentUpon>Booking.aspx</DependentUpon>
     </Compile>
     <Compile Include="Contact.aspx.cs">
       <DependentUpon>Contact.aspx</DependentUpon>
@@ -139,6 +157,9 @@
     <Compile Include="Terms.aspx.designer.cs">
       <DependentUpon>Terms.aspx</DependentUpon>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ClubImages\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
