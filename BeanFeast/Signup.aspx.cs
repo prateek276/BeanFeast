@@ -85,6 +85,11 @@ namespace BeanFeast
             Response.Redirect("Home.aspx");
         }
 
+        protected void backBtn_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Home.aspx");
+        }
+
         //protected void Create_click(object sender, EventArgs e)
         //{
         //    string gen = "";

@@ -166,10 +166,9 @@
                 <asp:Label ID="dataLbl" runat="server" ForeColor="#CC0000"></asp:Label>
             </td>
             <td class="auto-style15" style="color: #0099FF; ">
-                &nbsp;
-                <asp:Button ID="Button1" runat="server" BackColor="#0099FF" ForeColor="White" Height="22px" OnClick="Button1_Click" Text="Back" Width="75px" />
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <asp:Button ID="createBtn" runat="server"  Text="Create" OnClick="createBtn_Click" BackColor="#3399FF" BorderColor="White" Font-Bold="True" Font-Names="tahoma" Font-Size="Small" ForeColor="White" Height="31px" Width="72px" />
+                &nbsp;<asp:Button ID="backBtn" runat="server" BackColor="#3399FF" BorderColor="White" Font-Bold="True" Font-Names="tahoma" ForeColor="White" Height="31px" OnClick="backBtn_Click" style="margin-left: 0px" Text="Back" Width="72px" />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Button ID="createBtn" runat="server"  Text="Create" OnClick="createBtn_Click" BackColor="#3399FF" BorderColor="White" Font-Bold="True" Font-Names="Tahoma" Font-Size="Small" ForeColor="White" Height="31px" Width="72px" />
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;
             </td>
             <td class="auto-style16" style="color: #0099FF; "></td>
         </tr> 
