@@ -67,6 +67,7 @@
     <Content Include="Contact.aspx" />
     <Content Include="Home.aspx" />
     <Content Include="Images\beanfeastName.png" />
+    <Content Include="Images\BeanFeastNew.png" />
     <Content Include="Images\BeanFeastPic.png" />
     <Content Include="Mainpage.aspx" />
     <Content Include="Manager.aspx" />

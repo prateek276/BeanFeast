@@ -45,46 +45,46 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <table style="width:100%; background-color:lightblue; border: medium solid #FFFFFF; width:100%; background-color:#1E90FF;">
+    <table style="width:100%; background-color:white; border: medium solid #0099FF; width:100%; ">
         <tr>
-            <td class="auto-style12" style="font-family: forte; color: #FFFFFF;">Name</td>
-            <td class="auto-style11">
-                <asp:TextBox ID="nameTxt" runat="server"></asp:TextBox>
+            <td class="auto-style12" style="color: #0099FF;">Name</td>
+            <td class="auto-style11" style="color: #0099FF; ">
+                <asp:TextBox ID="nameTxt" runat="server" BorderColor="#CCCCCC" BorderStyle="Solid"></asp:TextBox>
             </td>
-            <td class="auto-style13">
+            <td class="auto-style13" style="color: #0099FF; ">
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="nameTxt" EnableClientScript="False" ErrorMessage="Enter name"></asp:RequiredFieldValidator>
             </td>
         </tr>
         <tr>
-            <td class="auto-style12" style="font-family: forte; color: #FFFFFF;">Email</td>
-            <td class="auto-style11">
-                <asp:TextBox ID="emailTxt" runat="server" TextMode="Email"></asp:TextBox>
+            <td class="auto-style12" style="color: #0099FF;">Email</td>
+            <td class="auto-style11" style="color: #0099FF; ">
+                <asp:TextBox ID="emailTxt" runat="server" TextMode="Email" BorderColor="#CCCCCC" BorderStyle="Solid"></asp:TextBox>
             </td>
-            <td class="auto-style13">
+            <td class="auto-style13" style="color: #0099FF; ">
                 <asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="emailTxt" EnableClientScript="False" ErrorMessage="enter a valid email" ValidationExpression="\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*"></asp:RegularExpressionValidator>
             </td>
         </tr>
         <tr>
-            <td class="auto-style12" style="font-family: forte; color: #FFFFFF;">Phone number</td>
-            <td class="auto-style11">
-                <asp:TextBox ID="phoneTxt" runat="server" TextMode="Phone"></asp:TextBox>
+            <td class="auto-style12" style="color: #0099FF;">Phone number</td>
+            <td class="auto-style11" style="color: #0099FF; ">
+                <asp:TextBox ID="phoneTxt" runat="server" TextMode="Phone" BorderColor="#CCCCCC" BorderStyle="Solid"></asp:TextBox>
             </td>
-            <td class="auto-style13">
+            <td class="auto-style13" style="color: #0099FF; ">
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator4" runat="server" ErrorMessage="enter a phone number" ControlToValidate="phoneTxt" EnableClientScript="False"></asp:RequiredFieldValidator>
             </td>
         </tr>
         <tr>
-            <td class="auto-style12" style="font-family: forte; color: #FFFFFF;">Date of Birth</td>
-            <td class="auto-style11">
-                <asp:TextBox ID="DOBtxt" runat="server"></asp:TextBox>
+            <td class="auto-style12" style="color: #0099FF;">Date of Birth</td>
+            <td class="auto-style11" style="color: #0099FF; ">
+                <asp:TextBox ID="DOBtxt" runat="server" BorderColor="#CCCCCC" BorderStyle="Solid"></asp:TextBox>
             </td>
-            <td style="font-family: forte; color: #FFFFFF" class="auto-style13">
+            <td style="color: #0099FF" class="auto-style13">
                 Age must be greater than 18 years</td>
         </tr>
          <tr>
-            <td class="auto-style12" style="font-family: forte; color: #FFFFFF;">State</td>
-            <td class="auto-style11">
-                <asp:DropDownList ID="stateList" runat="server">
+            <td class="auto-style12" style="color: #0099FF;">State</td>
+            <td class="auto-style11" style="color: #0099FF; ">
+                <asp:DropDownList ID="stateList" runat="server" ForeColor="#0099FF">
                     <asp:ListItem>Select state</asp:ListItem>
                     <asp:ListItem>Andaman and Nicobar Islands</asp:ListItem>
                     <asp:ListItem>Andhra Pradesh</asp:ListItem>
@@ -124,51 +124,51 @@
                     <asp:ListItem>West Bengal</asp:ListItem>
                 </asp:DropDownList>
              </td>
-            <td class="auto-style13">
+            <td class="auto-style13" style="color: #0099FF; ">
                 <asp:Label ID="stateLbl" runat="server"></asp:Label>
              </td>
         </tr> <tr>
-            <td class="auto-style12" style="font-family: forte; color: #FFFFFF;">Gender</td>
-            <td class="auto-style9">
-                <asp:RadioButton ID="maleRbtn" runat="server" GroupName="gender" Text="Male" Font-Names="forte" ForeColor="White" />
-                <asp:RadioButton ID="femaleRbtn" runat="server" GroupName="gender" Text="Female" Font-Names="forte" ForeColor="White" />
+            <td class="auto-style12" style="color: #0099FF;">Gender</td>
+            <td class="auto-style9" style="color: #0099FF; ">
+                <asp:RadioButton ID="maleRbtn" runat="server" GroupName="gender" Text="Male" Font-Names="Times New Roman" ForeColor="#0099FF" />
+                <asp:RadioButton ID="femaleRbtn" runat="server" GroupName="gender" Text="Female" Font-Names="Times New Roman" ForeColor="#0099FF" />
             </td>
-            <td class="auto-style10">
+            <td class="auto-style10" style="color: #0099FF; ">
                 <asp:Label ID="genderLbl" runat="server"></asp:Label>
             </td>
         </tr> <tr>
-            <td class="auto-style12" style="font-family: forte; color: #FFFFFF;">Username</td>
-            <td class="auto-style11">
-                <asp:TextBox ID="usernameTxt" runat="server"></asp:TextBox>
+            <td class="auto-style12" style="color: #0099FF;">Username</td>
+            <td class="auto-style11" style="color: #0099FF; ">
+                <asp:TextBox ID="usernameTxt" runat="server" BorderColor="#CCCCCC" BorderStyle="Solid"></asp:TextBox>
             </td>
-            <td class="auto-style13">
+            <td class="auto-style13" style="color: #0099FF; ">
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="usernameTxt" EnableClientScript="False" ErrorMessage="enter a username"></asp:RequiredFieldValidator>
             </td>
         </tr> <tr>
-            <td class="auto-style12" style="font-family: forte; color: #FFFFFF;">Password</td>
-            <td class="auto-style11">
-                <asp:TextBox ID="passwordTxt" runat="server" TextMode="Password"></asp:TextBox>
+            <td class="auto-style12" style="color: #0099FF;">Password</td>
+            <td class="auto-style11" style="color: #0099FF; ">
+                <asp:TextBox ID="passwordTxt" runat="server" TextMode="Password" BorderColor="#CCCCCC" BorderStyle="Solid"></asp:TextBox>
             </td>
-            <td class="auto-style13">
+            <td class="auto-style13" style="color: #0099FF; ">
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator3" runat="server" ControlToValidate="passwordTxt" EnableClientScript="False" ErrorMessage="enter a password"></asp:RequiredFieldValidator>
             </td>
         </tr> <tr>
-            <td class="auto-style12" style="font-family: forte; color: #FFFFFF;">Confirm password</td>
-            <td class="auto-style11">
-                <asp:TextBox ID="cpasswordTxt" runat="server" TextMode="Password"></asp:TextBox>
+            <td class="auto-style12" style="color: #0099FF;">Confirm password</td>
+            <td class="auto-style11" style="color: #0099FF; ">
+                <asp:TextBox ID="cpasswordTxt" runat="server" TextMode="Password" BorderColor="#CCCCCC" BorderStyle="Solid"></asp:TextBox>
             </td>
-            <td class="auto-style13">
+            <td class="auto-style13" style="color: #0099FF; ">
                 <asp:CompareValidator ID="CompareValidator1" runat="server" ControlToCompare="passwordTxt" ControlToValidate="cpasswordTxt" EnableClientScript="False" ErrorMessage="Password do not match"></asp:CompareValidator>
                 <asp:RequiredFieldValidator ID="RequiredFieldValidator5" runat="server" ControlToValidate="cpasswordTxt" EnableClientScript="False" ErrorMessage="Password do not match"></asp:RequiredFieldValidator>
             </td>
         </tr> <tr>
-            <td class="auto-style14">
-                <asp:Label ID="dataLbl" runat="server"></asp:Label>
+            <td class="auto-style14" style="color: #0099FF; ">
+                <asp:Label ID="dataLbl" runat="server" ForeColor="#CC0000"></asp:Label>
             </td>
-            <td class="auto-style15">
+            <td class="auto-style15" style="color: #0099FF; ">
                 <asp:Button ID="createBtn" runat="server"  Text="Create" OnClick="createBtn_Click" BackColor="#3399FF" BorderColor="White" Font-Bold="True" Font-Names="tahoma" Font-Size="Small" ForeColor="White" Height="31px" Width="72px" />
             </td>
-            <td class="auto-style16"></td>
+            <td class="auto-style16" style="color: #0099FF; "></td>
         </tr> 
     </table>
 </asp:Content>

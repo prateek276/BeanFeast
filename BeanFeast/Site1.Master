@@ -44,14 +44,14 @@
     </style>
 </head>
 <body>
-    <form id="form1" runat="server" style="background-color:#1E90FF; height: 651px; margin-bottom: 0px;" >
+    <form id="form1" runat="server" style="background-color:white; height: 651px; margin-bottom: 0px;" >
     <div>
     </div>
         <table style="width:100%; height: 616px;">
             <tr>
                 <td class="auto-style1">
                     &nbsp;</td>
-                <td class="auto-style2">&nbsp;&nbsp;&nbsp;<a href="Home.aspx"><asp:Image ID="Image1" runat="server" Height="117px" ImageUrl="~/Images/BeanFeastPic.png" style="text-align: center" Width="353px" /></a>
+                <td class="auto-style2">&nbsp;&nbsp;&nbsp;<a href="Home.aspx"><asp:Image ID="Image1" runat="server" Height="117px" ImageUrl="~/Images/BeanFeastNew.png" style="text-align: center" Width="353px" /></a>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
                 <td class="auto-style9">&nbsp;</td>
@@ -68,17 +68,17 @@
             <tr>
                 <td class="auto-style6">
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Terms.aspx" ForeColor="White" Font-Names="forte">Terms</asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink1" runat="server" NavigateUrl="~/Terms.aspx" ForeColor="#0099FF" Font-Names="Times New Roman">Terms</asp:HyperLink>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </td>
                 <td class="auto-style7">
 
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:HyperLink ID="HyperLink3" runat="server" Font-Bold="False" Font-Names="forte" ForeColor="White" NavigateUrl="~/About.aspx">About us</asp:HyperLink>
+                    <asp:HyperLink ID="HyperLink3" runat="server" Font-Bold="False" Font-Names="Times New Roman" ForeColor="#0099FF" NavigateUrl="~/About.aspx">About us</asp:HyperLink>
 
                 </td>
                 <td class="auto-style8">
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Contact.aspx" ForeColor="White" Font-Names="forte">Contact us</asp:HyperLink>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <asp:HyperLink ID="HyperLink2" runat="server" NavigateUrl="~/Contact.aspx" ForeColor="#0099FF" Font-Names="Times New Roman">Contact us</asp:HyperLink>
                     </td>
             </tr>
         </table>
