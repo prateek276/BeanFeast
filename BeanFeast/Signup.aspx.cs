@@ -80,6 +80,11 @@ namespace BeanFeast
           
         }
 
+        protected void Button1_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Home.aspx");
+        }
+
         //protected void Create_click(object sender, EventArgs e)
         //{
         //    string gen = "";
