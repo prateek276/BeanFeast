@@ -167,7 +167,7 @@
             </td>
             <td class="auto-style15" style="color: #0099FF; ">
                 &nbsp;
-                <asp:Button ID="Button1" runat="server" BackColor="#0099FF" ForeColor="White" Height="28px" OnClick="Button1_Click" Text="Back" Width="75px" />
+                <asp:Button ID="Button1" runat="server" BackColor="#0099FF" ForeColor="White" Height="22px" OnClick="Button1_Click" Text="Back" Width="75px" />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 <asp:Button ID="createBtn" runat="server"  Text="Create" OnClick="createBtn_Click" BackColor="#3399FF" BorderColor="White" Font-Bold="True" Font-Names="tahoma" Font-Size="Small" ForeColor="White" Height="31px" Width="72px" />
             </td>
