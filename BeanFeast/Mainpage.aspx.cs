@@ -15,6 +15,7 @@ namespace BeanFeast
         SqlConnection con = new SqlConnection(ConfigurationManager.ConnectionStrings["BeanFeastDBConnectionString"].ConnectionString);
         protected void Page_Load(object sender, EventArgs e)
         {
+           
             if (Session["New"] != null)
             {
                 welcomeLbl.Text = Session["New"].ToString();
@@ -49,5 +50,11 @@ namespace BeanFeast
             GridView1.DataBind();
             con.Close();
         }
+
+        protected void optionDDList_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            Response.Redirect(optionDDList.SelectedValue);
+        }
+
     }
 }

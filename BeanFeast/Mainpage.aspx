@@ -13,16 +13,30 @@
     </style>
 </head>
 <body>
-    <form id="form1" runat="server" style="background-color:#1E90FF;">
+    <form id="form1" runat="server" style="background-color:#FFFFFF;">
     <div class="auto-style1">
     
-        <strong style="color: #FFFFFF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; WELCOM&nbsp;&nbsp;
-        <asp:Label ID="welcomeLbl" runat="server" ForeColor="White"></asp:Label>
+        <strong style="color: #0099FF">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; WELCOM&nbsp;&nbsp;
+        <asp:Label ID="welcomeLbl" runat="server" ForeColor="#0099FF"></asp:Label>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <asp:Button ID="logoutBtn" runat="server" OnClick="logoutBtn_Click" Text="LOGOUT" />
             
-            <asp:TextBox ID="searchTxt" runat="server" style="margin-left: 325px" Width="194px" ></asp:TextBox>
+           
+            
+            <asp:TextBox ID="searchTxt" runat="server" style="margin-left: 3px" Width="194px" ></asp:TextBox>
         <asp:Button ID="searchBtn" Text="Search" runat="server" OnClick="searchBtn_Click"  />
+            
+           
+            
+            <asp:DropDownList ID="optionDDList" runat="server" AutoPostBack="true" OnSelectedIndexChanged="optionDDList_SelectedIndexChanged" Height="20px" Width="24px">
+                <asp:ListItem></asp:ListItem>
+                <asp:ListItem Value="~/ChangePassword.aspx" Text="Change password" />
+                <asp:ListItem Value="~/Home.aspx" Text="Logout" />
+
+                
+        </asp:DropDownList>
+            
+           
+            
         <br />
         
             <asp:GridView ID="GridView1" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None" Width="1351px" EmptyDataText="No Result Found!!" AutoGenerateColumns="False" DataKeyNames="Id" style="margin-right: 0px">
